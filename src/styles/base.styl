@@ -1,0 +1,43 @@
+@import './color.styl'
+
+$bg = $flat-white
+
+*
+  animation fadeIn .5s
+  box-sizing border-box
+  transition transform .5s ease 0s
+
+body
+  align-content center
+  background-color $bg
+  color #aaa
+  display grid
+  justify-items center
+  margin 0
+  padding 0
+
+header
+  margin 0
+  padding 20px
+
+  h1
+    font-size 2.5rem
+
+footer
+  padding 30px
+
+a
+  text-decoration none
+
+  $bg = $groovy-red
+
+
+img
+  border-radius 50px
+  height        300px
+  object-fit     cover
+  width         300px
+
+@keyframes fadeIn
+  from
+    opacity 0
